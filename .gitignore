@@ -1,0 +1,16 @@
+# build intermediates
+dist/*.obj
+dist/*.exp
+dist/*.lib
+dist/*.pdb
+
+# runtime logs produced next to the DLLs
+*.log
+
+# python bytecode
+__pycache__/
+*.pyc
+
+# local reverse-engineering / verification workspace
+ipc/
+*.tmp

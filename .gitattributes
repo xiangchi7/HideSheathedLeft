@@ -1,0 +1,14 @@
+# Normalise line endings so contributors on different platforms do not churn files.
+* text=auto eol=lf
+
+# Binary artefacts
+*.png binary
+*.dll binary
+*.lib binary
+*.exp binary
+*.obj binary
+
+# Windows-only scripts stay CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
